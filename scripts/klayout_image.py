@@ -6,7 +6,7 @@ import os
 import pya
 import argparse
 
-input_gds="../librelane/logo_names/gds/snitch_names_small_logo.gds"
+input_gds="../librelane/logo/gds/snitch_small_logo.gds"
 w = 4096
 aspect_ratio = 60/50
 h = w / aspect_ratio
@@ -59,4 +59,4 @@ for lyp in lv.each_layer():
 lv.update_content()
 
 lv.set_config("background-color", background)
-lv.save_image("./Names.png", w, h)
+lv.save_image("./snitch_logo.png", w, h)
