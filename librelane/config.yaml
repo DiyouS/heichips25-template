@@ -13,7 +13,8 @@ VERILOG_FILES:
 - dir::../src/spill_register.sv
 - dir::../src/spill_register_flushable.sv
 - dir::../src/lzc.sv
-#- dir::logo/rtl/snitch_small_logo.v
+- dir::./logo_names/rtl/snitch_names_small_logo.v
+- dir::./logo/rtl/snitch_small_logo.v
 
 CLOCK_PORT: clk
 CLOCK_PERIOD: 10 # 10ns = 100MHz
@@ -28,6 +29,8 @@ RIGHT_MARGIN_MULT: 6
 # Absolute die size
 FP_SIZING: absolute
 
+
+ 
 # Small DEF template
 #DIE_AREA: [0, 0, 500, 200]
 #FP_DEF_TEMPLATE: dir::def/heichips25_template_small.def
@@ -55,5 +58,4 @@ PL_RESIZER_SETUP_SLACK_MARGIN: 0.2
 PL_RESIZER_SETUP_MAX_BUFFER_PCT: 80
 GRT_RESIZER_SETUP_MAX_BUFFER_PCT: 80
 GRT_RESIZER_SETUP_SLACK_MARGIN: 0.1
-
 
