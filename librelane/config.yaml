@@ -13,8 +13,7 @@ VERILOG_FILES:
 - dir::../src/spill_register.sv
 - dir::../src/spill_register_flushable.sv
 - dir::../src/lzc.sv
-- dir::./logo_names/rtl/snitch_names_small_logo.v
-- dir::./logo/rtl/snitch_small_logo.v
+- dir::snitch_logo.v
 
 CLOCK_PORT: clk
 CLOCK_PERIOD: 10 # 10ns = 100MHz
