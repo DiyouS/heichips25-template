@@ -248,8 +248,10 @@ Bit assignments are kept in `src/` so the same RTL serves sim, FPGA, and macro b
 ## References & attributions
 
 * **Snitch** core and docs — PULP platform community (ETH Zürich / UniBo).
-* **HeiChips 2025** template and tapeout infrastructure.
-* **LibreLane** Nix‑packaged digital ASIC flow.
+* **HeiChips 2025** template and tapeout infrastructure.
+* **LibreLane** Nix-packaged digital ASIC flow.
+* **artistic** — logo generation utilities (from the PULP team)  
+  <https://github.com/pulp-platform/artistic>
 
 ---
 
